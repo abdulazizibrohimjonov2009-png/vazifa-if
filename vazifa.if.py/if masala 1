@@ -2,8 +2,9 @@ A = int(input("A ni kiriting: "))
 B = int(input("B ni kiriting: "))
 
 if A != B:
-    A = A + B
-    B = A
+    katta = max(A, B)
+    A = katta
+    B = katta
 else:
     A = 0
     B = 0
