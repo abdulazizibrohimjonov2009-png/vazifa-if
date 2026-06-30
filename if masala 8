@@ -1,0 +1,17 @@
+A = float(input("A ni kiriting: "))
+B = float(input("B ni kiriting: "))
+C = float(input("C ni kiriting: "))
+
+if (A < B < C) or (A > B > C):
+    A *= 2
+    B *= 2
+    C *= 2
+else:
+    A = -A
+    B = -B
+    C = -C
+
+print("A =", A)
+print("B =", B)
+print("C =", C)
+

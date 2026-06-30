@@ -1,0 +1,7 @@
+A = int(input("A ni kiriting: "))
+B = int(input("B ni kiriting: "))
+C = int(input("C ni kiriting: "))
+
+kichik = min(A, B, C)
+
+print("Eng kichik son =", kichik)

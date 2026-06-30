@@ -1,0 +1,10 @@
+A = int(input("A ni kiriting: "))
+B = int(input("B ni kiriting: "))
+C = int(input("C ni kiriting: "))
+
+if A + B >= A + C and A + B >= B + C:
+    print("Eng katta yig‘indi beruvchi sonlar:", A, B)
+elif A + C >= A + B and A + C >= B + C:
+    print("Eng katta yig‘indi beruvchi sonlar:", A, C)
+else:
+    print("Eng katta yig‘indi beruvchi sonlar:", B, C)

@@ -1,0 +1,8 @@
+A = int(input("A ni kiriting: "))
+B = int(input("B ni kiriting: "))
+C = int(input("C ni kiriting: "))
+
+sonlar = sorted([A, B, C])
+ortacha = sonlar[1]
+
+print("O‘rtacha son =", ortacha)

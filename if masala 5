@@ -1,0 +1,10 @@
+A = int(input("A ni kiriting: "))
+B = int(input("B ni kiriting: "))
+C = int(input("C ni kiriting: "))
+
+kichik = min(A, B, C)
+katta = max(A, B, C)
+
+print("Kichik son =", kichik)
+print("Katta son =", katta)
+
